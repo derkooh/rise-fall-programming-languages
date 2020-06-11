@@ -18,17 +18,6 @@ by_tag_year <- read_csv('datasets/by_tag_year.csv')
 # Inspect the dataset
 by_tag_year
 ```
-
-    Parsed with column specification:
-    cols(
-      year = [32mcol_double()[39m,
-      tag = [31mcol_character()[39m,
-      number = [32mcol_double()[39m,
-      year_total = [32mcol_double()[39m
-    )
-
-
-
 <table>
 <caption>A spec_tbl_df: 40518 x 4</caption>
 <thead>
@@ -46,48 +35,9 @@ by_tag_year
 	<tr><td>2008</td><td>2d                  </td><td>  42</td><td>58390</td></tr>
 	<tr><td>2008</td><td>32-bit              </td><td>  19</td><td>58390</td></tr>
 	<tr><td>2008</td><td>32bit-64bit         </td><td>   4</td><td>58390</td></tr>
-	<tr><td>2008</td><td>3d                  </td><td>  73</td><td>58390</td></tr>
-	<tr><td>2008</td><td>64bit               </td><td> 149</td><td>58390</td></tr>
-	<tr><td>2008</td><td>abap                </td><td>  10</td><td>58390</td></tr>
-	<tr><td>2008</td><td>absolute            </td><td>   1</td><td>58390</td></tr>
-	<tr><td>2008</td><td>abstract            </td><td>   5</td><td>58390</td></tr>
-	<tr><td>2008</td><td>abstract-class      </td><td>  27</td><td>58390</td></tr>
-	<tr><td>2008</td><td>abstract-syntax-tree</td><td>   6</td><td>58390</td></tr>
-	<tr><td>2008</td><td>accelerometer       </td><td>   3</td><td>58390</td></tr>
-	<tr><td>2008</td><td>access              </td><td>   1</td><td>58390</td></tr>
-	<tr><td>2008</td><td>access-control      </td><td>  12</td><td>58390</td></tr>
-	<tr><td>2008</td><td>accessibility       </td><td>  26</td><td>58390</td></tr>
-	<tr><td>2008</td><td>access-vba          </td><td>  50</td><td>58390</td></tr>
-	<tr><td>2008</td><td>access-violation    </td><td>   4</td><td>58390</td></tr>
-	<tr><td>2008</td><td>accordion           </td><td>   9</td><td>58390</td></tr>
-	<tr><td>2008</td><td>acl                 </td><td>  11</td><td>58390</td></tr>
-	<tr><td>2008</td><td>acrobat             </td><td>  10</td><td>58390</td></tr>
-	<tr><td>2008</td><td>action              </td><td>  10</td><td>58390</td></tr>
-	<tr><td>2008</td><td>actionlistener      </td><td>   4</td><td>58390</td></tr>
-	<tr><td>2008</td><td>actionmailer        </td><td>   3</td><td>58390</td></tr>
-	<tr><td>2008</td><td>actionscript        </td><td> 136</td><td>58390</td></tr>
+
 	<tr><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-	<tr><td>2018</td><td>yaml             </td><td> 648</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yarn             </td><td> 357</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yeoman           </td><td>  36</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yesod            </td><td>  41</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yield            </td><td>  69</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yii              </td><td> 269</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yii2             </td><td>1181</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yii2-advanced-app</td><td> 209</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yocto            </td><td> 288</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>youtube          </td><td> 676</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>youtube-api      </td><td> 473</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>youtube-api-v3   </td><td> 223</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>youtube-data-api </td><td> 203</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yui              </td><td>   5</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>yum              </td><td>  98</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>z3               </td><td> 124</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>zend-db          </td><td>  11</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>zend-form        </td><td>  13</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>zend-framework   </td><td> 188</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>zend-framework2  </td><td> 108</td><td>1085170</td></tr>
-	<tr><td>2018</td><td>zeromq           </td><td> 168</td><td>1085170</td></tr>
+r>
 	<tr><td>2018</td><td>z-index          </td><td> 107</td><td>1085170</td></tr>
 	<tr><td>2018</td><td>zip              </td><td> 410</td><td>1085170</td></tr>
 	<tr><td>2018</td><td>zipfile          </td><td> 115</td><td>1085170</td></tr>
@@ -132,49 +82,7 @@ by_tag_year_fraction
 	<tr><td>2008</td><td>2d                  </td><td>  42</td><td>58390</td><td>7.193013e-04</td></tr>
 	<tr><td>2008</td><td>32-bit              </td><td>  19</td><td>58390</td><td>3.253982e-04</td></tr>
 	<tr><td>2008</td><td>32bit-64bit         </td><td>   4</td><td>58390</td><td>6.850488e-05</td></tr>
-	<tr><td>2008</td><td>3d                  </td><td>  73</td><td>58390</td><td>1.250214e-03</td></tr>
-	<tr><td>2008</td><td>64bit               </td><td> 149</td><td>58390</td><td>2.551807e-03</td></tr>
-	<tr><td>2008</td><td>abap                </td><td>  10</td><td>58390</td><td>1.712622e-04</td></tr>
-	<tr><td>2008</td><td>absolute            </td><td>   1</td><td>58390</td><td>1.712622e-05</td></tr>
-	<tr><td>2008</td><td>abstract            </td><td>   5</td><td>58390</td><td>8.563110e-05</td></tr>
-	<tr><td>2008</td><td>abstract-class      </td><td>  27</td><td>58390</td><td>4.624079e-04</td></tr>
-	<tr><td>2008</td><td>abstract-syntax-tree</td><td>   6</td><td>58390</td><td>1.027573e-04</td></tr>
-	<tr><td>2008</td><td>accelerometer       </td><td>   3</td><td>58390</td><td>5.137866e-05</td></tr>
-	<tr><td>2008</td><td>access              </td><td>   1</td><td>58390</td><td>1.712622e-05</td></tr>
-	<tr><td>2008</td><td>access-control      </td><td>  12</td><td>58390</td><td>2.055146e-04</td></tr>
-	<tr><td>2008</td><td>accessibility       </td><td>  26</td><td>58390</td><td>4.452817e-04</td></tr>
-	<tr><td>2008</td><td>access-vba          </td><td>  50</td><td>58390</td><td>8.563110e-04</td></tr>
-	<tr><td>2008</td><td>access-violation    </td><td>   4</td><td>58390</td><td>6.850488e-05</td></tr>
-	<tr><td>2008</td><td>accordion           </td><td>   9</td><td>58390</td><td>1.541360e-04</td></tr>
-	<tr><td>2008</td><td>acl                 </td><td>  11</td><td>58390</td><td>1.883884e-04</td></tr>
-	<tr><td>2008</td><td>acrobat             </td><td>  10</td><td>58390</td><td>1.712622e-04</td></tr>
-	<tr><td>2008</td><td>action              </td><td>  10</td><td>58390</td><td>1.712622e-04</td></tr>
-	<tr><td>2008</td><td>actionlistener      </td><td>   4</td><td>58390</td><td>6.850488e-05</td></tr>
-	<tr><td>2008</td><td>actionmailer        </td><td>   3</td><td>58390</td><td>5.137866e-05</td></tr>
-	<tr><td>2008</td><td>actionscript        </td><td> 136</td><td>58390</td><td>2.329166e-03</td></tr>
 	<tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-	<tr><td>2018</td><td>yaml             </td><td> 648</td><td>1085170</td><td>5.971415e-04</td></tr>
-	<tr><td>2018</td><td>yarn             </td><td> 357</td><td>1085170</td><td>3.289807e-04</td></tr>
-	<tr><td>2018</td><td>yeoman           </td><td>  36</td><td>1085170</td><td>3.317453e-05</td></tr>
-	<tr><td>2018</td><td>yesod            </td><td>  41</td><td>1085170</td><td>3.778210e-05</td></tr>
-	<tr><td>2018</td><td>yield            </td><td>  69</td><td>1085170</td><td>6.358451e-05</td></tr>
-	<tr><td>2018</td><td>yii              </td><td> 269</td><td>1085170</td><td>2.478874e-04</td></tr>
-	<tr><td>2018</td><td>yii2             </td><td>1181</td><td>1085170</td><td>1.088309e-03</td></tr>
-	<tr><td>2018</td><td>yii2-advanced-app</td><td> 209</td><td>1085170</td><td>1.925966e-04</td></tr>
-	<tr><td>2018</td><td>yocto            </td><td> 288</td><td>1085170</td><td>2.653962e-04</td></tr>
-	<tr><td>2018</td><td>youtube          </td><td> 676</td><td>1085170</td><td>6.229439e-04</td></tr>
-	<tr><td>2018</td><td>youtube-api      </td><td> 473</td><td>1085170</td><td>4.358764e-04</td></tr>
-	<tr><td>2018</td><td>youtube-api-v3   </td><td> 223</td><td>1085170</td><td>2.054978e-04</td></tr>
-	<tr><td>2018</td><td>youtube-data-api </td><td> 203</td><td>1085170</td><td>1.870675e-04</td></tr>
-	<tr><td>2018</td><td>yui              </td><td>   5</td><td>1085170</td><td>4.607573e-06</td></tr>
-	<tr><td>2018</td><td>yum              </td><td>  98</td><td>1085170</td><td>9.030843e-05</td></tr>
-	<tr><td>2018</td><td>z3               </td><td> 124</td><td>1085170</td><td>1.142678e-04</td></tr>
-	<tr><td>2018</td><td>zend-db          </td><td>  11</td><td>1085170</td><td>1.013666e-05</td></tr>
-	<tr><td>2018</td><td>zend-form        </td><td>  13</td><td>1085170</td><td>1.197969e-05</td></tr>
-	<tr><td>2018</td><td>zend-framework   </td><td> 188</td><td>1085170</td><td>1.732447e-04</td></tr>
-	<tr><td>2018</td><td>zend-framework2  </td><td> 108</td><td>1085170</td><td>9.952358e-05</td></tr>
-	<tr><td>2018</td><td>zeromq           </td><td> 168</td><td>1085170</td><td>1.548145e-04</td></tr>
-	<tr><td>2018</td><td>z-index          </td><td> 107</td><td>1085170</td><td>9.860206e-05</td></tr>
 	<tr><td>2018</td><td>zip              </td><td> 410</td><td>1085170</td><td>3.778210e-04</td></tr>
 	<tr><td>2018</td><td>zipfile          </td><td> 115</td><td>1085170</td><td>1.059742e-04</td></tr>
 	<tr><td>2018</td><td>zk               </td><td>  35</td><td>1085170</td><td>3.225301e-05</td></tr>
@@ -298,54 +206,7 @@ sorted_tags
 	<tr><td>php          </td><td>1204291</td></tr>
 	<tr><td>android      </td><td>1110261</td></tr>
 	<tr><td>python       </td><td> 970768</td></tr>
-	<tr><td>jquery       </td><td> 915159</td></tr>
-	<tr><td>html         </td><td> 755341</td></tr>
-	<tr><td>c++          </td><td> 574263</td></tr>
-	<tr><td>ios          </td><td> 566075</td></tr>
-	<tr><td>css          </td><td> 539818</td></tr>
-	<tr><td>mysql        </td><td> 522287</td></tr>
-	<tr><td>sql          </td><td> 445419</td></tr>
-	<tr><td>asp.net      </td><td> 334479</td></tr>
-	<tr><td>ruby-on-rails</td><td> 293432</td></tr>
-	<tr><td>objective-c  </td><td> 284451</td></tr>
-	<tr><td>c            </td><td> 279915</td></tr>
-	<tr><td>.net         </td><td> 269578</td></tr>
-	<tr><td>arrays       </td><td> 266578</td></tr>
-	<tr><td>angularjs    </td><td> 252951</td></tr>
-	<tr><td>r            </td><td> 243016</td></tr>
-	<tr><td>json         </td><td> 236552</td></tr>
-	<tr><td>sql-server   </td><td> 234713</td></tr>
-	<tr><td>node.js      </td><td> 229843</td></tr>
-	<tr><td>iphone       </td><td> 219161</td></tr>
-	<tr><td>swift        </td><td> 196253</td></tr>
-	<tr><td>ruby         </td><td> 195860</td></tr>
-	<tr><td>regex        </td><td> 190061</td></tr>
-	<tr><td>ajax         </td><td> 188184</td></tr>
-	<tr><td>xml          </td><td> 173524</td></tr>
 	<tr><td>...</td><td>...</td></tr>
-	<tr><td>impala             </td><td>1011</td></tr>
-	<tr><td>box-api            </td><td>1010</td></tr>
-	<tr><td>drawrect           </td><td>1010</td></tr>
-	<tr><td>expo               </td><td>1010</td></tr>
-	<tr><td>package.json       </td><td>1010</td></tr>
-	<tr><td>credit-card        </td><td>1009</td></tr>
-	<tr><td>data-conversion    </td><td>1009</td></tr>
-	<tr><td>omnet++            </td><td>1009</td></tr>
-	<tr><td>c-strings          </td><td>1008</td></tr>
-	<tr><td>google-docs-api    </td><td>1008</td></tr>
-	<tr><td>publishing         </td><td>1008</td></tr>
-	<tr><td>jogl               </td><td>1007</td></tr>
-	<tr><td>node-red           </td><td>1007</td></tr>
-	<tr><td>postgresql-9.4     </td><td>1007</td></tr>
-	<tr><td>uinavigationitem   </td><td>1007</td></tr>
-	<tr><td>playframework-2.1  </td><td>1006</td></tr>
-	<tr><td>cakephp-2.1        </td><td>1005</td></tr>
-	<tr><td>device-driver      </td><td>1005</td></tr>
-	<tr><td>jasperserver       </td><td>1004</td></tr>
-	<tr><td>webdeploy          </td><td>1004</td></tr>
-	<tr><td>cat                </td><td>1003</td></tr>
-	<tr><td>date-formatting    </td><td>1003</td></tr>
-	<tr><td>java-2d            </td><td>1003</td></tr>
 	<tr><td>lattice            </td><td>1003</td></tr>
 	<tr><td>directory-structure</td><td>1002</td></tr>
 	<tr><td>relation           </td><td>1002</td></tr>
@@ -366,50 +227,6 @@ sorted_tags
 ```R
 by_tag_subset
 ```
-
-
-<table>
-<caption>A spec_tbl_df: 32 x 5</caption>
-<thead>
-	<tr><th scope=col>year</th><th scope=col>tag</th><th scope=col>number</th><th scope=col>year_total</th><th scope=col>fraction</th></tr>
-	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>2008</td><td>android      </td><td>    38</td><td>  58390</td><td>6.507964e-04</td></tr>
-	<tr><td>2008</td><td>ios          </td><td>    95</td><td>  58390</td><td>1.626991e-03</td></tr>
-	<tr><td>2008</td><td>windows-phone</td><td>     1</td><td>  58390</td><td>1.712622e-05</td></tr>
-	<tr><td>2009</td><td>android      </td><td>  1991</td><td> 343868</td><td>5.790012e-03</td></tr>
-	<tr><td>2009</td><td>ios          </td><td>   615</td><td> 343868</td><td>1.788477e-03</td></tr>
-	<tr><td>2010</td><td>android      </td><td> 27280</td><td> 694391</td><td>3.928622e-02</td></tr>
-	<tr><td>2010</td><td>ios          </td><td>  3748</td><td> 694391</td><td>5.397535e-03</td></tr>
-	<tr><td>2010</td><td>windows-phone</td><td>    47</td><td> 694391</td><td>6.768521e-05</td></tr>
-	<tr><td>2011</td><td>android      </td><td> 86987</td><td>1200551</td><td>7.245590e-02</td></tr>
-	<tr><td>2011</td><td>ios          </td><td> 33214</td><td>1200551</td><td>2.766563e-02</td></tr>
-	<tr><td>2011</td><td>windows-phone</td><td>   171</td><td>1200551</td><td>1.424346e-04</td></tr>
-	<tr><td>2012</td><td>android      </td><td>129903</td><td>1645404</td><td>7.894900e-02</td></tr>
-	<tr><td>2012</td><td>ios          </td><td> 71023</td><td>1645404</td><td>4.316448e-02</td></tr>
-	<tr><td>2012</td><td>windows-phone</td><td>   726</td><td>1645404</td><td>4.412290e-04</td></tr>
-	<tr><td>2013</td><td>android      </td><td>155597</td><td>2060473</td><td>7.551519e-02</td></tr>
-	<tr><td>2013</td><td>ios          </td><td> 82191</td><td>2060473</td><td>3.988938e-02</td></tr>
-	<tr><td>2013</td><td>windows-phone</td><td>  2229</td><td>2060473</td><td>1.081790e-03</td></tr>
-	<tr><td>2014</td><td>android      </td><td>167136</td><td>2164701</td><td>7.720974e-02</td></tr>
-	<tr><td>2014</td><td>ios          </td><td> 91457</td><td>2164701</td><td>4.224925e-02</td></tr>
-	<tr><td>2014</td><td>windows-phone</td><td>  1990</td><td>2164701</td><td>9.192956e-04</td></tr>
-	<tr><td>2015</td><td>android      </td><td>164835</td><td>2219527</td><td>7.426582e-02</td></tr>
-	<tr><td>2015</td><td>ios          </td><td> 99332</td><td>2219527</td><td>4.475368e-02</td></tr>
-	<tr><td>2015</td><td>windows-phone</td><td>  1148</td><td>2219527</td><td>5.172273e-04</td></tr>
-	<tr><td>2016</td><td>android      </td><td>161147</td><td>2226072</td><td>7.239074e-02</td></tr>
-	<tr><td>2016</td><td>ios          </td><td> 85361</td><td>2226072</td><td>3.834602e-02</td></tr>
-	<tr><td>2016</td><td>windows-phone</td><td>   448</td><td>2226072</td><td>2.012514e-04</td></tr>
-	<tr><td>2017</td><td>android      </td><td>149852</td><td>2305207</td><td>6.500588e-02</td></tr>
-	<tr><td>2017</td><td>ios          </td><td> 71751</td><td>2305207</td><td>3.112562e-02</td></tr>
-	<tr><td>2017</td><td>windows-phone</td><td>    93</td><td>2305207</td><td>4.034345e-05</td></tr>
-	<tr><td>2018</td><td>android      </td><td> 65495</td><td>1085170</td><td>6.035460e-02</td></tr>
-	<tr><td>2018</td><td>ios          </td><td> 27288</td><td>1085170</td><td>2.514629e-02</td></tr>
-	<tr><td>2018</td><td>windows-phone</td><td>    11</td><td>1085170</td><td>1.013666e-05</td></tr>
-</tbody>
-</table>
-
 
 
 
